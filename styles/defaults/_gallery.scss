@@ -52,10 +52,10 @@
 }
 
 .gallery img {
-  border: 1px solid $color-smokey-white;
-  height: auto;
+ border-width:1px;
+  border: 1px solid $color-dusty-gray;
   padding: 4px;
   &:hover, &:focus {
-    border: 1px solid $color-dusty-grey;
+    border: 1px solid $color-dusty-gray;
   }
 }

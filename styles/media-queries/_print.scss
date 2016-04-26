@@ -52,7 +52,8 @@
     widows: 3;
   }
   blockquote, pre {
-    border: 1px solid $color-dusty-grey;
+    border: 1px solid $color-dusty-gray;
+
     page-break-inside: avoid;
   }
   .content, .content-sidebar {

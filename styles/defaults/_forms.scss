@@ -3,7 +3,9 @@
 
 input, select, textarea {
   background-color: $color-white;
-  border: 1px solid $color-light-grey;
+   border-width:1px;
+  border-color: $color-light-gray;
+  border-style: solid;
   color: $color-dark-gray;
   font-size: 18px;
   font-size: 1.8rem;
@@ -13,7 +15,9 @@ input, select, textarea {
 }
 
 input:focus, textarea:focus {
-  border: 1px solid $color-dusty-grey;
+   border-width:1px;
+  border-color: $color-dusty-gray;
+  border-style: solid;
   outline: none;
 }
 
