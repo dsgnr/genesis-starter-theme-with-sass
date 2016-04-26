@@ -1,0 +1,20 @@
+/* ## Genesis
+--------------------------------------------- */
+
+.breadcrumb {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.after-entry, .archive-description, .author-box {
+  background-color: $color-white;
+  font-size: 18px;
+  font-size: 1.8rem;
+  margin-bottom: 40px;
+  padding: 60px;
+}
+
+.archive-description p:last-child, .author-box p:last-child {
+  margin-bottom: 0;
+}

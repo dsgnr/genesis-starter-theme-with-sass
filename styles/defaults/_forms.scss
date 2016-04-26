@@ -1,0 +1,161 @@
+/* ## Forms
+--------------------------------------------- */
+
+input, select, textarea {
+  background-color: $color-white;
+  border: 1px solid $color-light-grey;
+  color: $color-dark-gray;
+  font-size: 18px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  padding: 16px;
+  width: 100%;
+}
+
+input:focus, textarea:focus {
+  border: 1px solid $color-dusty-grey;
+  outline: none;
+}
+
+input {
+  &[type="checkbox"], &[type="image"], &[type="radio"] {
+    width: auto;
+  }
+}
+
+::-moz-placeholder {
+  color: $color-dark-gray;
+  opacity: 1;
+}
+
+::-webkit-input-placeholder {
+  color: $color-dark-gray;
+}
+
+button {
+  background-color: $color-dark-gray;
+  border: 0;
+  color: $color-white;
+  cursor: pointer;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 16px 24px;
+  text-decoration: none;
+  white-space: normal;
+  width: auto;
+}
+
+input {
+  &[type="button"], &[type="reset"], &[type="submit"] {
+    background-color: $color-dark-gray;
+    border: 0;
+    color: $color-white;
+    cursor: pointer;
+    font-size: 16px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 16px 24px;
+    text-decoration: none;
+    white-space: normal;
+    width: auto;
+  }
+}
+
+.button {
+  background-color: $color-dark-gray;
+  border: 0;
+  color: $color-white;
+  cursor: pointer;
+  font-size: 16px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 16px 24px;
+  text-decoration: none;
+  white-space: normal;
+  width: auto;
+}
+
+button:hover {
+  background-color: $color-red;
+  color: $color-white;
+}
+
+input:hover {
+  &[type="button"], &[type="reset"], &[type="submit"] {
+    background-color: $color-lighter-hover-red;
+    color: $color-white;
+  }
+}
+
+.button:hover, button:focus {
+  background-color: $color-hover-red;
+  color: $color-white;
+}
+
+input:focus {
+  &[type="button"], &[type="reset"], &[type="submit"] {
+    background-color: $color-hover-red;
+    color: $color-white;
+  }
+}
+
+.button:focus {
+  background-color: $color-hover-red;
+  color: $color-white;
+}
+
+.entry-content .button {
+  &:hover, &:focus {
+    color: $color-white;
+  }
+}
+
+.button {
+  display: inline-block;
+}
+
+a.button.small, button.small {
+  padding: 8px 16px;
+}
+
+input {
+  &[type="button"].small, &[type="reset"].small, &[type="submit"].small {
+    padding: 8px 16px;
+  }
+}
+
+.site-container {
+  button:disabled {
+    background-color: $color-smokey-white;
+    border-width: 0;
+    color: $color-cobalt;
+    cursor: not-allowed;
+    &:hover {
+      background-color: $color-smokey-white;
+      border-width: 0;
+      color: $color-cobalt;
+      cursor: not-allowed;
+    }
+  }
+  input {
+    &:disabled, &[type="button"]:disabled, &[type="reset"]:disabled, &[type="submit"]:disabled {
+      background-color: $color-smokey-white;
+      border-width: 0;
+      color: $color-cobalt;
+      cursor: not-allowed;
+      &:hover {
+        background-color: $color-smokey-white;
+        border-width: 0;
+        color: $color-cobalt;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+input[type="search"] {
+  &::-webkit-search-cancel-button, &::-webkit-search-results-button {
+    display: none;
+  }
+}

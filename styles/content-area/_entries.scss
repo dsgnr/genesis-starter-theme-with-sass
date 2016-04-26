@@ -1,0 +1,28 @@
+/* ## Entries
+--------------------------------------------- */
+
+.entry {
+  background-color: $color-white;
+  margin-bottom: 40px;
+  padding: 70px 80px;
+}
+
+.entry-content {
+  ol, ul {
+    margin-bottom: 28px;
+    margin-left: 40px;
+  }
+  ol > li {
+    list-style-type: decimal;
+  }
+  ul > li {
+    list-style-type: disc;
+  }
+  ol ol, ul ul {
+    margin-bottom: 0;
+  }
+  code {
+    background-color: $color-dark-gray;
+    color: $color-smokey-white;
+  }
+}

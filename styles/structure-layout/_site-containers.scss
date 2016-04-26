@@ -1,0 +1,16 @@
+/* ## Site Containers
+--------------------------------------------- */
+
+.site-inner, .wrap {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.site-inner {
+  clear: both;
+  padding-top: 40px;
+}
+
+.landing-page .site-inner {
+  max-width: 800px;
+}

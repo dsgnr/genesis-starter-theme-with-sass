@@ -1,0 +1,33 @@
+/* ## Primary Navigation
+--------------------------------------------- */
+
+.nav-primary {
+  background-color: $color-dark-gray;
+  .genesis-nav-menu {
+    a {
+      color: #ccc;
+      text-decoration: none;
+      &:hover, &:focus {
+        color: $color-white;
+        text-decoration: underline;
+      }
+    }
+    .current-menu-item > a {
+      color: $color-white;
+      text-decoration: underline;
+    }
+    .sub-menu {
+      a {
+        color: $color-dark-gray;
+        &:hover, &:focus {
+          color: $color-hover-red;
+          text-decoration: underline;
+        }
+      }
+      .current-menu-item > a {
+        color: $color-hover-red;
+        text-decoration: underline;
+      }
+    }
+  }
+}

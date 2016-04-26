@@ -1,0 +1,51 @@
+/* ## Comments
+--------------------------------------------- */
+
+.comment-respond, .entry-comments, .entry-pings {
+  background-color: $color-white;
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+}
+
+.comment-respond, .entry-pings {
+  padding: 60px 60px 32px;
+}
+
+.entry-comments {
+  padding: 60px;
+}
+
+.comment-content {
+  clear: both;
+  word-wrap: break-word;
+}
+
+.comment-list {
+  li {
+    padding: 40px 0 0 30px;
+  }
+  .depth-1 {
+    padding-left: 0;
+  }
+}
+
+.comment-respond {
+  input {
+    &[type="email"], &[type="text"], &[type="url"] {
+      width: 50%;
+    }
+  }
+  label {
+    display: block;
+    margin-right: 12px;
+  }
+}
+
+.entry-comments .comment-author {
+  margin-bottom: 0;
+}
+
+.entry-pings .reply {
+  display: none;
+}

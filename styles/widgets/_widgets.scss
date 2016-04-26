@@ -1,0 +1,44 @@
+/* # Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.widget {
+  margin-bottom: 40px;
+  word-wrap: break-word;
+  p:last-child, ul > li:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.widget-area .widget:last-of-type {
+  margin-bottom: 0;
+}
+
+.widget {
+  ul > li {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    &:last-of-type {
+      padding-bottom: 0;
+    }
+  }
+  ol > li {
+    list-style-position: inside;
+    list-style-type: decimal;
+    padding-left: 20px;
+    text-indent: -20px;
+  }
+  li li {
+    border: 0;
+    margin: 0 0 0 30px;
+    padding: 0;
+  }
+}
+
+.widget_calendar {
+  table {
+    width: 100%;
+  }
+  td, th {
+    text-align: center;
+  }
+}
