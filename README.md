@@ -1,7 +1,7 @@
-# Genesis Sample Theme
+# Genesis Sample Theme with Sass
 
-Github project link: https://github.com/copyblogger/genesis-sample
-
+Original Github project link: https://github.com/copyblogger/genesis-sample
+Updated by @dsgnr (Daniel Hand) at https://github.com/dsgnr/genesis-sample-with-sass.git
 
 ## Installation Instructions
 
@@ -10,7 +10,3 @@ Github project link: https://github.com/copyblogger/genesis-sample
 3. Activate the Genesis Sample theme.
 4. Inside your WordPress dashboard, go to Genesis > Theme Settings and configure them to your liking.
 
-
-## Theme Support
-
-Please visit http://my.studiopress.com/help/ for theme support.
