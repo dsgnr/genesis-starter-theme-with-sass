@@ -114,3 +114,17 @@ function genesis_sample_comments_gravatar( $args ) {
 	return $args;
 
 }
+
+
+//* Remove the site footer
+remove_action( 'genesis_footer', 'genesis_footer_markup_open', 5 );
+remove_action( 'genesis_footer', 'genesis_do_footer' );
+remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
+//* Customize the site footer
+add_action( 'genesis_footer', 'bg_custom_footer' );
+function bg_custom_footer() { ?>
+
+	<div class="site-footer"><div class="wrap"><p>Forked with <span class="dashicons dashicons-heart"></span> by <a href="https://github.com/dsgnr/genesis-sample-with-sass.git">@dsgnr (Daniel Hand)</a>. Powered by the <a href="http://my.studiopress.com/themes/genesis/">Genesis Framework</a>. <a href="https://www.touchthemes.com">Get in Touch</a>.</p></div></div>
+
+<?php
+}
