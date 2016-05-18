@@ -22,6 +22,9 @@ load_child_theme_textdomain( 'genesis-sample', apply_filters( 'child_theme_textd
 //* Add Image upload and Color select to WordPress Theme Customizer
 require_once( get_stylesheet_directory() . '/lib/customize.php' );
 
+//* Add Woocommerce support 
+add_theme_support( 'genesis-connect-woocommerce' );
+
 //* Include Customizer CSS
 include_once( get_stylesheet_directory() . '/lib/output.php' );
 
@@ -124,7 +127,7 @@ remove_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
 add_action( 'genesis_footer', 'bg_custom_footer' );
 function bg_custom_footer() { ?>
 
-	<div class="site-footer"><div class="wrap"><p>Forked with <span class="dashicons dashicons-heart"></span> by <a href="https://github.com/dsgnr/genesis-sample-with-sass.git">@dsgnr (Daniel Hand)</a>. Powered by the <a href="http://my.studiopress.com/themes/genesis/">Genesis Framework</a>. <a href="https://www.touchthemes.com">Get in Touch</a>.</p></div></div>
+	<div class="site-footer"><div class="wrap"><p>Starter theme forked with <span class="dashicons dashicons-heart"></span> by <a href="https://github.com/dsgnr/genesis-sample-with-sass.git">@dsgnr (Daniel Hand)</a>. Powered by the <a href="http://my.studiopress.com/themes/genesis/">Genesis Framework</a>. <a href="mailto:email@danielhand.io">Get in Touch</a>.</p></div></div>
 
 <?php
 }
