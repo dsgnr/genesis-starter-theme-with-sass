@@ -1,7 +1,7 @@
 # Genesis Sample Theme with Sass
 
 Original Github project link: https://github.com/copyblogger/genesis-sample
-Updated by @dsgnr (Daniel Hand) at https://github.com/dsgnr/genesis-sample-with-sass.git
+Updated by @dsgnr (Daniel Hand) at https://github.com/dsgnr/Genesis-Starter-Theme-with-Sass
 
 ## Installation Instructions
 
